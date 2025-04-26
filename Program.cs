@@ -77,7 +77,7 @@ string ManchCode(string input)
     return input;
 }
 
-
+//числа в двоичном коде
 string group = "010110";     //22
 string number = "00110";     //6
 string lastName = "0111";    //7
@@ -88,8 +88,4 @@ NRZ(input);
 NRZI(input);
 AMI(input);
 ManchCode(input);
-/*string a = "1";
-int b = 0;
-a = b.ToString();
-Console.WriteLine(a);*/
 Console.ReadKey();  
